@@ -44,7 +44,12 @@
 Backend responsibility
 
 ## Requirement Tools
-- NodeJS
+- Visual Studio Code
+- Postman
+- NVM
+- Sequel Pro
+- iTerm
+- Git
 
 ## API Convention
 
@@ -155,12 +160,13 @@ There are at least three common cases we found when naming an endpoint :
     More detailed explanatory text, if necessary.  Wrap it to about 72 characters or so.  In some contexts, the first line is treated as the subject of an email and the rest of the text as the body.  The blank line separating the summary from the body is critical (unless you omit the body entirely); tools like rebase can get confused if you run the two together, [reference link.](https://medium.com/@steveamaza/how-to-write-a-proper-git-commit-message-e028865e5791)
 
 - It’s good practice to follow these naming convention, [reference link](https://gist.github.com/digitaljhelms/4287848) :
-    | Instance | Branch | Description |
-    | -------- | -------| ------------|
-    | Stable | stable | Accepts merges from Working and Hotfixes |
-    | Working | master | Accepts merges from Features/Issues and Hotfixes |
-    | Features/Issues | topic-* | Always branch off HEAD of Working |
-    | Hotfix | hotfix-* | Always branch off Stable |
+
+    Instance | Branch | Description |
+    --- |:---:|---
+    Stable | stable | Accepts merges from Working and Hotfixes
+    Working | master | Accepts merges from Features/Issues and Hotfixes
+    Features/Issues | topic-* | Always branch off HEAD of Working
+    Hotfix | hotfix-* | Always branch off Stable
 
     ![Git Flow](./assets/images/gitflow.png)
 
